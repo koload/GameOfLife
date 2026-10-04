@@ -7,6 +7,9 @@ The Game of Life is a famous cellular automaton devised by the British mathemati
 
 The "board" is a grid of square cells, each of which can be in one of two states: **alive** or **dead**. Every cell interacts with its eight neighbors (horizontally, vertically, and diagonally).
 
+## Turing Completeness
+Though it has no traditional goals or rules, the Game of Life is **Turing complete**. Because precise streams of gliders can be manipulated to construct logic gates (like AND, OR, and NOT), the system possesses the full computational power of a real computer. In theory, it is possible to build and run any computer program—including another simulation of the Game of Life itself—entirely out of interacting cells on this grid.
+
 ## Rules
 In each cycle (generation), the entire grid updates simultaneously based on four simple rules:
 1. **Underpopulation:** Any live cell with fewer than two live neighbors dies.
